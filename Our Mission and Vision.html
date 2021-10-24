@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="image/jpg" rel="icon" href="LOGO.jfif">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <title>Project 1</title>
+    <style>
+        body{ 
+            font-size: 30px;
+        }
+
+        .WWW{
+          display: inline;
+          padding-left: 5px;
+          padding-right: 5px;
+        }
+        .Flower{
+            color: white;
+        }
+        .Flower:hover{
+            color: pink;
+            font-size: 40px;
+        }
+        .flex1{
+                color:black;
+                text-align: center;
+                height: 1100px;
+                width:50%;
+
+            } 
+            #pic{
+                height: 600px;
+                width: 100%;
+                animation-name: pictures;
+                animation-duration: 5s;
+                animation-iteration-count: infinite;
+                background-image: url("SWEET.jpg");
+            }
+            @keyframes pictures{
+                0%{background-image:url("SWEET.jpg");}
+                25%{background-image:url("Sweet1.jpg");}
+                75%{background-image:url("Sweet2.jpg");}
+                100%{background-image:url("Sweet3.jpg");}
+            }
+
+            #container{
+                background-color:pink;
+                height: 1100px;
+                width:100%;
+                border: solid indianred 10px;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content:space-between; 
+
+                }             
+         #div1{
+                background-color: coral;
+               }
+
+        #div2{
+            background-color: ivory;
+            margin-left: 200px;
+        }
+        #dishes{
+            height: 400px;
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+
+        }  
+        .dishestypes{
+            height: 400px;
+            width: 200px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <marquee><h1>Our mission and Vision</h1></marquee>
+    <nav style="background-color: black;">
+        <ul style="list-style-type: none;">
+            <li class="WWW">
+              <img src="LOGO.jfif" height="100" width="100">
+            </li>
+            <li class="WWW">
+              <a class="Flower" href="index.html">Home</a>
+            </li>
+            <li class="WWW">
+              <a class="Flower" href="Our Mission and Vision.html">About us</a>
+
+            </li>
+            <li class="WWW">
+              <a class="Flower" href="#">Brands</a>
+              </li>
+        </ul>
+    </nav>
+	<div id="pic"></div>
+	<p  style="font-size: 36">Speciality
+Restaurants
+A single-minded mission to make you feel special.
+
+It is the group's mission to share with diners authentic and unique cuisines from the world over. To give them a never-before experience and make them 'feel special'.
+
+The group has always striven to go to great lengths to pamper and surprise patrons and ensure that every dining experience they have, is something they would remember. From sourcing ingredients from far-off lands to attentive service, it's all done with one objective - to give diners an experience they will cherish forever.
+
+Our Vision
+To become a nationwide renowned and respected brand that serves the best of the global cuisine at all our Fine Dining, Casual Dining, Bar & Lounge, Bakery and Confectionery outlets and restaurants, and be the leading brand serving international cuisines.</p>
+ <img src="graph.jpg" height="400" width="500">
+ <p  style="font-size: 36">Speciality
+<p style="font-size: 32">Our Mission
+Our journey has traversed cities, connected customers, created memorable cuisines and has lent authenticity to every dish served, every meal enjoyed making every dining experience a step towards a greater milestone.
+
+The 'New age offerings,' the vibrant and warm service, the wide selection of global flavours, makes every dining experience truly "special."
+
+Each restaurant's elegant ambience, the uniquely crafted recipes, the refinement in personalised service where each customer is treated with love and care, the vibrancy in the carefully curated menu has been a part of our passion to provide you with a one-of-a-kind experience.
+
+We have created new paradigms in the hospitality industry, by successfully translating the passion for good food into creating dishes that has culminated into fantastic dining experiences.
+
+Speciality Restaurants Limited has been consistently providing world-class cuisine at affordable prices.
+
+Our mission will always be to put this "passion on to your plate" and make you a part of our family as we reach for our next milestone!
+</p>	
+</body>
+</html>

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="image/jpg" rel="icon" href="LOGO.jfif">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <title>Titiksha Sah</title>
+    <style>
+        body{ 
+            font-size: 30px;
+        }
+
+        .WWW{
+          display: inline;
+          padding-left: 5px;
+          padding-right: 5px;
+        }
+        .Flower{
+            color: white;
+        }
+        .Flower:hover{
+            color: pink;
+            font-size: 40px;
+        }
+        .flex1{
+                color:black;
+                text-align: center;
+                height: 1100px;
+                width:50%;
+
+            } 
+            #pic{
+                height: 600px;
+                width: 100%;
+                animation-name: pictures;
+                animation-duration: 10s;
+                animation-iteration-count: infinite;
+                animation-direction: alternate;
+                background-image: url("Join hands.PNG");
+            }
+            @keyframes pictures{
+                0%{background-image:url("Join hands.PNG");}
+                25%{background-image:url("Sweet1.jpg");}
+                75%{background-image:url("Sweet2.jpg");}
+                100%{background-image:url("Sweet3.jpg");}
+            }
+
+            #container{
+                background-color:pink;
+                height: 1100px;
+                width:100%;
+                border: solid indianred 10px;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content:space-between; 
+
+                }             
+         #div1{
+                background-color: coral;
+               }
+
+        #div2{
+            background-color: ivory;
+            margin-left: 200px;
+        }
+        #dishes{
+            height: 400px;
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+
+        }  
+        .dishestypes{
+            height: 400px;
+            width: 200px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <marquee><h1>Titiksha Sweets</h1></marquee>
+    <nav style="background-color: black;">
+        <ul style="list-style-type: none;">
+            <li class="WWW">
+              <img src="LOGO.jfif" height="100" width="100">
+            </li>
+            <li class="WWW">
+              <a class="Flower" href="index.html">Home</a>
+            </li>
+            <li class="WWW">
+              <a class="Flower" href="Our Mission and Vision.html">About us</a>
+
+            </li>
+            <li class="WWW">
+              <a class="Flower" href="#">Brands</a>
+              </li>
+        </ul>
+    </nav>
+    <div id="pic"></div>
+    <br/>
+    <section id="container">
+        <div class="flex1">  
+            <img src="Bengal_Sweet.jfif" height="700" width="100%">
+        </div>
+        <div class="flex1">
+            <p style="color: black;font-size: 36;font-family: 'Monotype Corsiva';">Whatever be their description, Bengali sweets are adored by connoisseurs of taste. So why not share their heavenly taste with the wider world outside Bengal?
+
+        Whether it is a wedding or an anniversary, birthday party or a festival, we have a sweet for every occasion. A wide and delectable range of sweets like Sondesh, Kheer Kodom, Chomchom, Rosogolla, Baked Mihidana, Mishti Doi, Dry Fruit Mishti along with snacks like Koraishutir Kochuri and Luchi Aloor Dom quickly established Sweet Bengal as the favourite destination for Bengali sweets and savouries in Mumbai.
+
+        Created by Bengal's finest master craftsmen, Sweet Bengal's legacy dates back in 1995. Since then every delicacy created has brought in a special and unique taste along with the heritage of Calcutta's historic nuances. Indulge yourself in this sweet journey which will take you along the Maidan as you hear the faint tune from a Tagore's song or letting the words of a Pablo Neruda weave magic in your head.
+
+        With over 22 outlets in Mumbai with a centralized confection factory, it is the most sought after and awarded destination for connoisseurs with a sweet tooth. It has been a satisfying and soulful journey in making your moments sweet and special.</p>
+        <br/>
+        </div>
+    </section>
+
+<input type="button" value="Click here to open" onclick="a()">  
+<script>
+    alert("You're welcome.")
+     function a()
+
+         {
+            open("Our Mission and Vision.html");
+         }
+</script>
+ <div class="container">
+     <h1 class="display-4" style="font-family: 'Blackadder ITC';">
+        Sweet Bengal
+Delightful
+Dishes
+    </h1>
+    <section id="dishes">
+        <div class="dishestypes">
+            <img src="D1.jpg" class="rounded-circle">
+            <p>Dry Fruits Sondesh</p>
+        </div>
+        <div class="dishestypes">
+            <img src="D2.jpg" class="rounded-circle">
+            <p>Jalbhora</p>
+        </div>
+        <div class="dishestypes">
+            <img src="D3.jpg" class="rounded-circle">
+            <p>Kaju Katli</p>
+        </div>
+        <div class="dishestypes">
+            <img src="D4.jpg" class="rounded-circle">
+            <p>Kheer Kodom</p>
+        </div>
+    </section>
+ </div>
+</body>
+</html>
